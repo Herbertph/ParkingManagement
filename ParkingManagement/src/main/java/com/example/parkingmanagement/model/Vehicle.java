@@ -96,7 +96,3 @@ public class Vehicle {
 
 }
 
-enum VehicleType {
-    CAR,
-    MOTORCYCLE
-}
