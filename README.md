@@ -35,7 +35,7 @@ spring.data.mongodb.uri=mongodb://localhost:27017/parking
 
 ## API Endpoints
 
-#Establishments
+###Establishments
 
 -- Create an establishment
 
@@ -75,9 +75,9 @@ PUT /api/establishments/{id}
 
 DELETE /api/establishments/{id}
 
-#Vehicles
+###Vehicles
 
--- Create an Vehicle
+* Create an Vehicle
 
 POST /api/vehicles
 
@@ -89,15 +89,15 @@ POST /api/vehicles
   "type": "CAR"
 }
 
--- Get all vehicles
+* Get all vehicles
 
 GET /api/vehicles
 
--- Get vehicles by ID
+* Get vehicles by ID
 
 GET /api/vehicles/{id}
 
--- Update vehicles
+* Update vehicles
 
 PUT /api/vehicles/{id}
 
@@ -109,13 +109,13 @@ PUT /api/vehicles/{id}
   "type": "CAR"
 }
 
--- Delete vehicles
+* Delete vehicles
 
 DELETE /api/vehicles/{id}
 
-#Parking Records
+###Parking Records
 
--- Register vehicle entry
+* Register vehicle entry
 
 POST /api/parkingRecords/entry
 
@@ -124,7 +124,7 @@ POST /api/parkingRecords/entry
   "establishmentId": "668eda54cb7f862723f68290"
 }
 
--- Register vehicle exit
+* Register vehicle exit
 
 POST /api/parkingRecords/exit
 
@@ -132,6 +132,6 @@ POST /api/parkingRecords/exit
   "vehicleId": "668ff5e0e537f5243d5b4586"
 }
 
-#Reports
+###Reports
 
 GET /api/reports/summary
