@@ -75,7 +75,7 @@ PUT /api/establishments/{id}
 
 DELETE /api/establishments/{id}
 
-###Vehicles
+### Vehicles
 
 * Create an Vehicle
 
