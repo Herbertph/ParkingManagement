@@ -1,15 +1,42 @@
-# Parking Management API
+# Parking Management System
 
-This is a RESTful API for managing a parking lot for Vehicles. It allows you to create, read, update, and delete establishments and vehicles, control the entry and exit of vehicles, and generate reports.
+## Overview
+A robust Spring Boot application designed to manage parking establishments and vehicle operations. This system provides a comprehensive solution for tracking vehicles, managing parking spaces, and maintaining parking records with secure API endpoints.
 
-## Technologies Used
+## Features
+- **Establishment Management**
+  - Create and manage parking establishments
+  - Configure establishment details and capacity
+  - Track establishment status and availability
 
-- Java 22
-- Spring Boot 3.3.1
-- Spring Data MongoDB
-- Spring Security
-- MongoDB
+- **Vehicle Management**
+  - Support for different vehicle types
+  - Vehicle registration and tracking
+  - Vehicle history and status monitoring
 
+- **Parking Operations**
+  - Real-time parking record management
+  - Entry and exit tracking
+  - Duration calculation and history maintenance
+
+- **Security**
+  - Spring Security integration
+  - Protected API endpoints
+  - Role-based access control
+
+## Technology Stack
+- **Backend Framework**: Spring Boot 3.3.1
+- **Java Version**: Java 22
+- **Database**: MongoDB
+- **Security**: Spring Security
+- **Additional Features**:
+  - Spring Boot Actuator for monitoring
+  - Spring Data MongoDB for database operations
+  - Spring Validation for data validation
+  - Lombok for reducing boilerplate code
+  - Spring DevTools for development convenience
+
+## Project Structure
 
 ## Requirements
 
